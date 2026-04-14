@@ -51,7 +51,7 @@ Given a set of patient features, predict whether a patient has diabetes (`1`) or
 ## Project Structure
 
 ```
-├── P02_Classification.ipynb   # main notebook
+├── Classification.ipynb   # main notebook
 ├── training_data.csv          # labeled training data
 ├── test_data.csv              # unlabeled test data
 ├── predictions.csv            # submission file (ID + prediction)
@@ -59,7 +59,9 @@ Given a set of patient features, predict whether a patient has diabetes (`1`) or
 ```
 
 ## Requirements
+```
 pandas
 numpy
 scikit-learn
 xgboost
+```
