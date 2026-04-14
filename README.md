@@ -1,7 +1,7 @@
 # Diabetes-classification
 Diabetes prediction model using XGBoost
 
-# Diabetes Prediction — Classification Project
+# Diabetes Prediction: Classification Project
 
 Binary classification model to predict diabetes based on patient medical and demographic data.
 
@@ -17,16 +17,16 @@ Given a set of patient features, predict whether a patient has diabetes (`1`) or
 | Test | 26,146 | 9 |
 
 **Features:**
-- `age` — patient age
-- `gender` — Female / Male / Other
-- `bmi` — body mass index
-- `hypertension` — 0 or 1
-- `heart_disease` — 0 or 1
-- `smoking_history` — never / former / current / not current / ever / No Info
-- `HbA1c_level` — glycated hemoglobin level
-- `blood_glucose_level` — blood glucose level
+- `age` - patient age
+- `gender` - Female / Male / Other
+- `bmi` - body mass index
+- `hypertension` - 0 or 1
+- `heart_disease` - 0 or 1
+- `smoking_history` - never / former / current / not current / ever / No Info
+- `HbA1c_level` - glycated hemoglobin level
+- `blood_glucose_level` - blood glucose level
 
-**Target:** `diabetes` (0 / 1) — class imbalance ~10:1
+**Target:** `diabetes` (0 / 1) - class imbalance 10:1
 
 ## Model
 
@@ -46,6 +46,6 @@ Given a set of patient features, predict whether a patient has diabetes (`1`) or
 
 ## Submission Format
 
-`predictions.csv` — two columns: `ID` and `prediction` (0 or 1, not probabilities)
+`predictions.csv` - two columns: `ID` and `prediction` (0 or 1, not probabilities)
 
 ## Project Structure
