@@ -49,12 +49,14 @@ Given a set of patient features, predict whether a patient has diabetes (`1`) or
 `predictions.csv` - two columns: `ID` and `prediction` (0 or 1, not probabilities)
 
 ## Project Structure
-## Project Structure
-├── Classification.ipynb   # main notebook
+
+```
+├── P02_Classification.ipynb   # main notebook
 ├── training_data.csv          # labeled training data
 ├── test_data.csv              # unlabeled test data
-├── predictions.csv            # submission file
+├── predictions.csv            # submission file (ID + prediction)
 └── README.md
+```
 
 ## Requirements
 pandas
